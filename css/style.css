@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(218, 50, 218);
+    
+    
+}
+                                                         /* proyecto */
+.nameActivity {
+    color: purple;
+    font-size: larger;
+}
+
+#name_title {
+    border: solid 2px black;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    width: auto;
+}
+
+.borde, .actividad1 {
+    border: solid 1px black;
+    margin-top: 10px;
+    padding-left: 5px;
+    background-color: antiquewhite;
+}
+
+
+.actividad1 {
+    color: orange;
+}
+
+.actividadEnClase1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0033ff;
+}
+
+                                                            /* Cabecera */
+ .cabecera_div {
+    border: solid 1px black;
+ }                                                           
+ul {
+    list-style: none;
+    font-size:0;
+    background-color: rgb(94, 167, 116);
+    height: 30px;
+    display: flex;
+    justify-content:space-around;
+    
+   
+    
+  
+ }
+ li {
+    display: inline-block;
+    position:relative;
+    font-size: 20px;
+    margin-top: 3px;
+
+ 
+   
+ }
+
+ a {
+    text-decoration: none;
+    color:white;
+ }
+ 
+    
+    
+ 
+
+ 
+
+                                                             /* Index */
+
+.title_box{
+   text-align: center;
+   
+}
+.title_fondo_img{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    border: solid 1px black;
+    margin-top: 110px; 
+    display: inline-block;
+}
+
+
+#informacion {
+    font-size: 20px;
+}
+
+#imagenes{
+    width: 1050px;
+    height: 250px;
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+}
+
+.box_img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+                                                        /* contacto*/
+
+
+.formulario {
+    text-align: center;
+    margin-top: 5%;
+    border: solid 1px black;
+    background-color: rgb(187, 131, 240);
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario_letra {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+input {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+                                                    /* footer */
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: dashed;
+
+    
+}
+
+                                                    /* Galeria */
+.galeria {
+    height: 200px;
+    width: 250px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: solid 1px blueviolet;
+    transition:  3s ;
+}                  
+
+.galeria:hover {
+    height: 250px;
+    
+}
+
+#galeria_principal {
+    margin-left: 55px;
+    
+    
+}
+
+
+
+.prueba {
+    border: solid 5px black;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+   
+}
+
+.prueba_uno {
+    width: 200px;
+    height: 200px;
+    
+    overflow: hidden;       /* para que nada salga de esta caja*/
+    
+}
+
+.prueba_img {
+    width: 100%;
+   
+    
+}
+
+                                                    /* Nosotros*/
+ .padre_caja {
+    background-color: aquamarine;
+    height: 150px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+ }                                                   
+
+ .caja {
+    background-color: #5879ff;
+    height: 130px;
+    width: 130px;
+    margin-top: 10px;
+ }
