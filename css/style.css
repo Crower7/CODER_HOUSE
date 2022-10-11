@@ -166,13 +166,10 @@ input {
     margin-top: 20px;
     margin-left: 25px;
     border: solid 1px blueviolet;
-    transition:  3s ;
+ 
 }                  
 
-.galeria:hover {
-    height: 250px;
-    
-}
+
 
 #galeria_principal {
     margin-left: 55px;
